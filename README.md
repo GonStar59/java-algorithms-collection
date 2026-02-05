@@ -1,9 +1,7 @@
 # Java Algorithms & Data Structures Collection
 
 ## Overview
-This repository serves as a portfolio of advanced algorithm implementations and custom data structures developed during my Computer Engineering studies at **Universidad Politécnica de Madrid (UPM)**. 
-
-The focus of this collection is on **algorithmic complexity**, **memory efficiency**, and **clean architecture**.
+This repository serves as a portfolio of advanced algorithm implementations and custom data structures developed during my Mathematics and Computer Science studies at **Universidad Politécnica de Madrid (UPM)**. 
 
 ## Modules
 
@@ -29,8 +27,24 @@ The focus of this collection is on **algorithmic complexity**, **memory efficien
 * **Implementation:** A probabilistic data structure combining a BST and a Min-Heap.
 * **Key Features:**
   * **O(log n)** expected complexity for search, insert, and delete operations.
-  * **Custom Iterator:** Implemented memory eficient in-order iterator.
+  * **Custom Iterator:** Implemented memory-efficient in-order iterator.
 
+### 4. Bisection Method
+* **File:** `matlab\bisecc.m`
+* Implementing an iterative algorithm with linear convergence to find the root of a continuous function.
+  
+### 5. Solving Linear Systems
+* **File:** `matlab\resuelve.m`
+* Using Gaussian Elimination with pivoting to solve linear systems. Pivoting minimizes floating-point errors and allows the solution of all matrices.
+
+### 6. Newton's Polynomial Interpolation
+* **File:** `matlab\newton.m`
+* Calculating coefficients of the polynomial with the divided differences method and evaluating the function with an O(N) algorithm
+  
+### 7. Quadratic Spline
+* **File:** `matlab\spline2.m`
+* Using Quadratic Spline Interpolation to transform discrete datasets into $C^1$ functions
+  
 ## Technologies
 * **Language:** Java (JDK 22)
 * **Dependencies:** UPM Academic Library (`es.upm.aedlib`)
