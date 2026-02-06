@@ -35,7 +35,7 @@ This repository serves as a portfolio of advanced algorithm implementations and 
   
 ### 5. Solving Linear Systems
 * **File:** `matlab\resuelve.m`
-* Using Gaussian Elimination with pivoting to solve linear systems. Pivoting minimizes floating-point errors and allows the solution of all matrices.
+* Using Gaussian Elimination with pivoting to solve linear systems. Pivoting minimizes floating-point errors and allows the solution of ill-conditioned matrices.
 
 ### 6. Newton's Polynomial Interpolation
 * **File:** `matlab\newton.m`
@@ -43,7 +43,7 @@ This repository serves as a portfolio of advanced algorithm implementations and 
   
 ### 6. Newton's Method
 * **File:** `matlab\newtonRootfinder.m`
-* Uses Newtons method to find the root of a function with and iterative mehod to get closer to the root with each iteration.
+* Uses Newton's method to find the root of a function with an iterative method to get closer to the root with each iteration.
 
 ### 7. Quadratic Spline
 * **File:** `matlab\spline2.m`
